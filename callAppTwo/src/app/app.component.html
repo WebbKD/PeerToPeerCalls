@@ -1,0 +1,72 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h2>{{myPhoneNum}}</h2>
+<mat-form-field style="width: 195px; background-color:crimson;">
+<input matInput type="text" [(ngModel)]="anotherid">
+</mat-form-field>
+<div style="width:195px; height:400px;">
+<mat-grid-list cols="3" rowHeight="1:1">
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="1" style="width:100%; height:100%;" class="button" (click)="addNumber1()" id="one">1</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="2" style="width:100%; height:100%;" class="button" (click)="addNumber2()" id="two">2</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+            <mat-card style="width:100%; height:100%;">
+                <button mat-button value="3" style="width:100%; height:100%;" class="button" (click)="addNumber3()" id="three">3</button>
+            </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+            <mat-card style="width:100%; height:100%;">
+                <button mat-button value="4" style="width:100%; height:100%;" class="button" (click)="addNumber4()" id="four">4</button>
+            </mat-card>
+        </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="5" style="width:100%; height:100%;" class="button" (click)="addNumber5()" id="five">5</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="6" style="width:100%; height:100%;" class="button" (click)="addNumber6()" id="six">6</button>
+        </mat-card>
+        </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="7" style="width:100%; height:100%;" class="button" (click)="addNumber7()" id="seven">7</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="8" style="width:100%; height:100%;" class="button" (click)="addNumber8()" id="eight">8</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="9" style="width:100%; height:100%;" class="button" (click)="addNumber9()" id="nine">9</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+           
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card style="width:100%; height:100%;">
+            <button mat-button value="9" style="width:100%; height:100%;" class="button" (click)="addNumber0()" id="zero">0</button>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan=3>
+        <mat-card style="width:100%; height:100%; background-color:crimson;" >
+            <button mat-button style="margin-left:30px; margin-top:15px;"  (click)="call()" >Call</button>
+        </mat-card>    
+    </mat-grid-tile>
+</mat-grid-list>
+</div>
+<audio #myaudio>
+
+
+
+
